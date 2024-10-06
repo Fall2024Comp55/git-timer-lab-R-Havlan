@@ -36,7 +36,7 @@ public class BallLauncher extends GraphicsProgram{
 		balls.add(ball);
 		add(ball);
 	}
-	
+	 
 	public GOval makeBall(double x, double y) {
 		GOval temp = new GOval(x-SIZE/2, y-SIZE/2, SIZE, SIZE);
 		temp.setColor(Color.RED);
